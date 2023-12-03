@@ -1,0 +1,13 @@
+<div>
+    <input [(ngModel)]="message" placeholder="Type a message" />
+    <button (click)="sendMessage()">Send</button>
+  </div>
+  <div *ngFor="let msg of messages">{{ msg }}</div>
+
+
+
+  <div>
+   
+    <button (click)="add()">add</button>
+  </div>
+  <div *ngFor="let num of numbers">{{ num }}</div>
